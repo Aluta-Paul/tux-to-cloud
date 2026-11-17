@@ -64,7 +64,7 @@ Become a cloud engineer by building strong Linux fundamentals first.
 └── templates/
     ├── daily-log-template.md
     └── lab-template.md
-
+```
 
 Most of it is markdown notes and lab write-ups. Nothing fancy. Some of it will be
 wrong at first and get fixed later — that's the point of version control.
