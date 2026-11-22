@@ -56,6 +56,16 @@ rm -i folder/*       # ask per file when I'm unsure
 rm -r folder/        # only after I've seen what's in there.. mostly after i confirmed the file i created just to dlete realy lives there.
 ```
 
+If I want a safety net, `trash-cli` gives me a real recycle bin:
+
+```bash
+sudo apt install trash-cli
+trash-put notes.txt      # to the trash, recoverable
+trash-list               # what's in there
+trash-restore            # put it back
+```
+
+Worth the install for anyone who deletes things before thinking.
 
 ---
 
@@ -96,6 +106,7 @@ ls ~/backup/          # what's already there?
 cp notes.txt ~/backup/
 ```
 
+And for the truly paranoid (me), `alias rm='rm -i'` in `~/.bashrc` makes every delete ask first. I can always type `\rm` to bypass it when I genuinely mean it.
 
 ---
 
