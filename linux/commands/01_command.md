@@ -135,7 +135,7 @@ drwxr-xr-x 20 root  root       4096 Nov 22 09:58 ..
 drwxr-xr-x  2 alice developers 4096 Nov 22 10:14 notes
 
 ##########--------------------
-
+```
 | Piece | Means |
 |---|---|
 | `d` or `-` | directory or regular file |
@@ -145,7 +145,6 @@ drwxr-xr-x  2 alice developers 4096 Nov 22 10:14 notes
 | `4096` | size in bytes |
 | `Nov 21 10:14` | last modified |
 
-```
 
 ## 7 Todays Cheat Sheet
 
